@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/logo.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vue App 模板</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <img alt="logo" src="/logo.svg" width="48px" height="48px" />
+      <h3>Vue App</h3>
+    </header>
+
+    <main>
+      <div class="mdc-card mdc-card--outlined">
+        <noscript>
+          <div class="mdc-card__title">出现错误</div>
+          <div class="mdc-card__subtitle">
+            <p>需要 JavaScript 才能继续。你的浏览器不支持 JavaScript 或 JavaScript 已被阻止。</p>
+            <br />
+            <p>在浏览器中启用 JavaScript，或使用一个支持它的浏览器。</p>
+          </div>
+        </noscript>
+        <div id="app"></div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="inner">
+        <span><a href="#">链接 1</a></span>
+        <span> · </span>
+        <span><a href="#">链接 2</a></span>
+        <span> · </span>
+        <span><a href="#">链接 3</a></span>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
