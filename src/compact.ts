@@ -1,6 +1,6 @@
-import './assets/main.scss'
+import './styles/compact.scss'
 
 import { createApp } from 'vue'
-import App from './App.vue'
+import App from './Compact.vue'
 
 createApp(App).mount('#app')
